@@ -1,0 +1,200 @@
+body {
+  margin: 0px;
+}
+
+header {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 0px;
+  border-top: solid 5px black;
+  font-family: 'Abril Fatface', cursive;
+  color: #2e2d2d;
+}
+
+#anakin {
+  width: 100%;
+}
+
+#anakin_h2 {
+  position: absolute;
+  top: 250px;
+  left: 450px;
+  font-size: 30px;
+}
+#anakin_h1 {
+  position: absolute;
+  top: 260px;
+  left: 450px;
+  font-size: 60px;
+}
+
+main {
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 50px;
+  color: #2e2d2d;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+#intro {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+#rule {
+  background: #272b30;
+  color: white;
+  height: 150px;
+  font-size: 50px;
+  display: flex;
+  justify-content: start-left;
+  align-items: center;
+  font-family: 'Abril Fatface', cursive;
+  
+}
+
+#quote1 {
+  font-size: 90px;
+  position: relative;
+  top: -30px;
+  left: 5px;
+}
+
+.main-text {
+  margin-left: 70px;
+  margin-right: 70px;
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 22px;
+  margin-bottom: 0px;
+}
+
+#faith {
+  background: #272b30;
+  color: white;
+  height: 200px;
+  font-size: 50px;
+  display: flex;
+  justify-content: start-left;
+  align-items: center;
+  font-family: 'Abril Fatface', cursive;
+  margin: 40px;
+}
+
+#quote2 {
+  font-size: 90px;
+  position: relative;
+  top: -60px;
+  left: 5px;
+}
+  h5 {
+    margin-top: 0px;
+    font-size: 15px;
+  }
+
+.line {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-top: solid 3px #272b30;
+}
+
+.icons {
+  position: fixed;
+  bottom: 6px;
+  right: 6px;
+  display: flex;
+}
+
+.circle {
+  background: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 5px 0px #222;
+  margin: 4px;
+  transition: all .2s;
+  display: flex;
+}
+
+.circle:hover {
+  width: 120px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.icon_text {
+  opacity: 0;
+  padding-top: 20px; 
+  color: #2e2d2d;
+  text-align: center;
+  transition: all .2s;
+  padding: 10px;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 14px;
+  
+}
+
+.circle:hover .icon_text {
+  opacity: 1;
+}
+
+#comment {
+  width: 20px;
+  height: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.half_circ_left {
+  position: fixed;
+  top: 50%;
+  left: -120px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: #222;
+  transition: all 0.2s;
+  opacity: 0.2;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.half_circ_left:hover {
+  left: -80px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.half_circ_right {
+  position: fixed;
+  top: 50%;
+  right: -120px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: #222;
+  transition: all 0.2s;
+  opacity: 0.2;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.half_circ_right:hover {
+  right: -80px;
+  cursor: pointer;
+  opacity: 0.8;
+}
